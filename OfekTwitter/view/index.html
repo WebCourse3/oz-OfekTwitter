@@ -1,92 +1,111 @@
-<!-- ok -->
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Ofek Twitter | Index </title>
-    <link rel="stylesheet" href="../css/normalize.css" />
-    <link rel="stylesheet" href="../css/header.css" />
-    <link rel="stylesheet" href="../css/index.css" />
+	<title>OfekTwitter</title>
+	<link rel='stylesheet' type='text/css' href='../css/bootstrap.css'/>
+	<link rel='stylesheet' type='text/css' href='../css/style.css'/>
+
 </head>
 <body>
 <header>
-    <nav style="align-content: right;">
-        <div class="div-logo"><img class="ofek-logo" src="../images/ofek.png"></div>
-        <div class="div-title"><a href="index.html"><span class="title">Ofek Twitter</span></a></div>
-        <ul>
-            <li><a href="sign_in.html"><span class="links">Sign in</span></a></li>
-            <li><a href="sign_up.html"><span class="links">Sign up</span></a></li>
-            <li><a href="users.html"><span class="links">Users</span></a></li>
-        </ul>
-    </nav>
+	<nav class="navbar  navbar-inverse">
+		<ul class="nav navbar-nav">
+			<li>
+				<img src="../images/ofek.png"/>
+			</li>
+			<li>
+				<a class="navbar-brand" href="../view/index.html">OfekTwitter</a>
+			</li>
+		</ul>
+
+		<ul class="nav navbar-nav navbar-right">
+			<li class="nav-item">
+				<a class="nav-link" href='../view/sign_in.html'>Sign in</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href='../view/sign_up.html'>Sign up</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href='../view/users.html'>Users</a>
+			</li>
+		</ul>
+		<br class="clearFix"/>
+	</nav>
 </header>
-</body>
-
-<div>
-    <div>
-        <form>
-            <ul>
-                <textarea id="message" class="header-li" rows="4" cols="80"></textarea>
-                <button id="submit" class="header-li">publish</button>
-            </ul>
-        </form>
-    </div>
-
-    <div>
-        <ul class="contactList">
-            <li class="tweet">
-                <section>
-                    <img class="user-img" src="../images/useravatar.png">
-                    <span class="">
-
-                                <strong>oz</strong><br/>
-                                    1
-                            </span>
-                </section>
-            </li>
-            <li class="tweet">
-                <section>
-                    <img class="user-img" src="../images/useravatar.png">
-                    <span class="">
-
-                                <strong>oz</strong><br/>
-                                    2
-                            </span>
-                </section>
-            </li>
-            <li class="tweet">
-                <section>
 
 
-                    <img class="user-img" src="../images/useravatar.png">
-                    <span class="">
 
-                                <strong>oz</strong><br/>
-                                    3
-                            </span>
-                </section>
-            </li>
-            <li class="tweet">
-                <section>
-                    <img class="user-img" src="../images/useravatar.png">
-                    <span class="">
+<div class="ot-body">
 
-                                <strong>oz</strong><br/>
-                                    4
-                            </span>
-                </section>
-            </li>
-            <li class="tweet">
-                <section>
-                    <img class="user-img" src="../images/useravatar.png">
-                    <span class="">
+	<div class="row">
+		<div class="col-md-offset-2 col-md-3 col-md-offset-7">
+			<div class="input-group">
+				<input type="text" class="form-control" placeholder="tweet text..." aria-label="tweet text...">
+				<span class="input-group-btn">
+		            <button class="btn btn-secondary" type="button">publish!</button>
+		        </span>
+			</div>
+		</div>
+	</div>
 
-                                <strong>oz</strong><br/>
-                                    5
-                            </span>
-                </section>
-            </li>
-        </ul>
-    </div>
+
+	<section class="tweets-section">
+		<div class="row col-md-offset-1" >
+			<div class="col-md-1">
+				<img src="../images/useravatar.png"/>
+			</div>
+			<div class="tweet-username">
+				<label> James Bond says:</label>
+			</div>
+			<div class="tweet-text">
+				Blabla bla...
+			</div>
+		</div>
+		<div class="row col-md-offset-1">
+			<div class="col-md-1">
+				<img src="../images/useravatar.png"/>
+			</div>
+			<div class="tweet-username">
+				<label>James Bond says:</label>
+			</div>
+			<div class="tweet-text">
+				Bond, James bond
+			</div>
+		</div>
+		<div class="row col-md-offset-1">
+			<div class="col-md-1">
+				<img src="../images/useravatar.png"/>
+			</div>
+			<div class="tweet-username">
+				<label>Albert Einstein says:</label>
+			</div>
+			<div class="tweet-text">
+				E = mc^2
+			</div>
+		</div>
+		<div class="row col-md-offset-1">
+			<div class="col-md-1">
+				<img src="../images/useravatar.png"/>
+			</div>
+			<div class="tweet-username">
+				<label>Bill Gates says:</label>
+			</div>
+			<div class="tweet-text">
+				I think 64 bytes should be enough for everyone
+			</div>
+		</div>
+		<div class="row col-md-offset-1">
+			<div class="col-md-1">
+				<img src="../images/useravatar.png"/>
+			</div>
+			<div class="tweet-username">
+				<label>Frodo says:</label>
+			</div>
+			<div class="tweet-text">
+				My Precious
+			</div>
+		</div>
+	</section>
 </div>
+</body>
 </html>

@@ -1,161 +1,161 @@
-<!-- ok -->
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Ofek Twitter | User </title>
-    <link rel="stylesheet" href="../css/normalize.css" />
-    <link rel="stylesheet" href="../css/header.css" />
-    <link rel="stylesheet" href="../css/users.css" />
+	<title>OfekTwitter | Users</title>
+	<link rel='stylesheet' type='text/css' href='../css/bootstrap.css'/>
+	<link rel='stylesheet' type='text/css' href='../css/style.css'/>
+
 </head>
 <body>
 <header>
-    <nav>
-        <div class="div-logo"><img class="ofek-logo" src="../images/ofek.png"></div>
-        <div class="div-title"><a href="index.html"><span class="title">Ofek Twitter</span></a></div>
-        <ul>
-            <li><a href="sign_in.html"><span class="links">Sign in</span></a></li>
-            <li><a href="sign_up.html"><span class="links">Sign up</span></a></li>
-            <li><a href="users.html"><span class="links">Users</span></a></li>
-        </ul>
-    </nav>
+	<nav class="navbar  navbar-inverse">
+		<ul class="nav navbar-nav">
+			<li>
+				<img src="../images/ofek.png"/>
+			</li>
+			<li>
+				<a class="navbar-brand" href="../view/index.html">OfekTwitter</a>
+			</li>
+		</ul>
+
+		<ul class="nav navbar-nav navbar-right">
+			<li class="nav-item">
+				<a class="nav-link" href='../view/sign_in.html'>Sign in</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href='../view/sign_up.html'>Sign up</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href='../view/users.html'>Users</a>
+			</li>
+		</ul>
+		<br class="clearFix"/>
+	</nav>
 </header>
 
+<div class="ot-body">
+	<div>
+		<div class="row">
+			<div class="col-md-offset-3 col-md-6 col-md-offset-3">
+				<div class="input-group">
+					<input type="text" class="form-control" placeholder="Filter by user name"
+					                   aria-label="Filter by user name...">
+					<span class="input-group-btn">
+		            <button class="btn btn-secondary" type="button">OK!</button>
+		        </span>
+				</div>
+			</div>
+		</div>
 
-    <div>
-        <form>
-            <div class="filter">
-                <label> Filter by <input type="text" placeholder="user name"></label>
-                <input type="submit" value="ok"/>
-            </div>
-        </form>
-    </div>
+		<div class="user-gallery pull-left">
+			<div class="row">
+				<div class="cell user-cell pull-left">
+					<div class="user-avatar-img">
+						<img src="../images/useravatar.png"/>
+					</div>
+					<div>
+						<button>follow</button>
+					</div>
+					<div class="user-cell-name">
+						<p>Marty McFly</p>
+					</div>
+				</div>
+				<div class="cell user-cell pull-left">
+					<div class="user-avatar-img">
+						<img src="../images/useravatar.png"/>
+					</div>
+					<div>
+						<button>follow</button>
+					</div>
+					<div class="user-cell-name">
+						<p>James Bond</p>
+					</div>
+				</div>
+				<div class="cell user-cell pull-left">
+					<div class="user-avatar-img">
+						<img src="../images/useravatar.png"/>
+					</div>
+					<div>
+						<button>unfollow</button>
+					</div>
+					<div class="user-cell-name">
+						<p>Janis Joplin</p>
+					</div>
+				</div>
+				<div class="cell user-cell pull-left">
+					<div class="user-avatar-img">
+						<img src="../images/useravatar.png"/>
+					</div>
+					<div>
+						<button>follow</button>
+					</div>
+					<div class="user-cell-name">
+						<p>Mark Twain</p>
+					</div>
+				</div>
+				<div class="cell user-cell pull-left">
+					<div class="user-avatar-img">
+						<img src="../images/useravatar.png"/>
+					</div>
+					<div>
+						<button>unfollow</button>
+					</div>
+					<div class="user-cell-name">
+						<p>Albert Einstein</p>
+					</div>
+				</div>
+				<div class="cell user-cell pull-left">
+					<div class="user-avatar-img">
+						<img src="../images/useravatar.png"/>
+					</div>
+					<div>
+						<button>follow</button>
+					</div>
+					<div class="user-cell-name">
+						<p>Frodo</p>
+					</div>
+				</div>
+				<div class="cell user-cell pull-left">
+					<div class="user-avatar-img">
+						<img src="../images/useravatar.png"/>
+					</div>
+					<div>
+						<button>follow</button>
+					</div>
+					<div class="user-cell-name">
+						<p>Bill Gates</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
-    <div class="container">
-        <div class="boxes">
-            <div class="box">
-                <div>
-                    <img src="../images/useravatar.png" class="user-pic">
-                    <button>follow</button>
-                </div>
-                <div style="width: 100%; padding-right: 0; padding-left: 0">
-                    <span class="user-name">Oz Taizi</span>
-                </div>
-            </div>
-            <div class="box">
-                <div>
-                    <img src="../images/useravatar.png" class="user-pic">
-                    <button>follow</button>
-                </div>
-                <div style="width: 100%; padding-right: 0%; padding-left: 0%">
-                    <span class="user-name">David Sapiro</span>
-                </div>
-            </div>
-            <div class="box">
-                <div>
-                    <img src="../images/useravatar.png" class="user-pic">
-                   <button>follow</button>
-                </div>
-                <div style="width: 100%; padding-right: 0%; padding-left: 0%">
-                    <span class="user-name">Kostya Dydoruk</span>
-                </div>
-            </div>
-            <div class="box">
-                <div>
-                    <img src="../images/useravatar.png" class="user-pic">
-                    <button>follow</button>
-                </div>
-                <div style="width: 100%; padding-right: 0%; padding-left: 0%">
-                    <span class="user-name">Ron david</span>
-                </div>
-            </div>
-            <div class="box">
-                <div>
-                    <img src="../images/useravatar.png" class="user-pic">
-                    <button>follow</button>
-                </div>
-                <div style="width: 100%; padding-right: 0%; padding-left: 0%">
-                    <span class="user-name">Yaron Shalom</span>
-                </div>
-            </div>
-            <div class="box">
-                <div>
-                    <img src="../images/useravatar.png" class="user-pic">
-                    <button>follow</button>
-                </div>
-                <div style="width: 100%; padding-right: 0%; padding-left: 0%">
-                    <span class="user-name">shlomo Gal</span>
-                </div>
-            </div>
-            <div class="box">
-                <div>
-                    <img src="../images/useravatar.png" class="user-pic">
-                    <button>follow</button>
-                </div>
-                <div style="width: 100%; padding-right: 0%; padding-left: 0%">
-                    <span class="user-name">Omer Coen</span>
-                </div>
-            </div>
-            <div class="box">
-                <div>
-                    <img src="../images/useravatar.png" class="user-pic">
-                   <button>follow</button>
-                </div>
-                <div style="width: 100%; padding-right: 0%; padding-left: 0%">
-                    <span class="user-name">Nir Hen</span>
-                </div>
-            </div>
-            <div class="box">
-                <div>
-                    <img src="../images/useravatar.png" class="user-pic">
-                    <button>follow</button>
-                </div>
-                <div style="width: 100%; padding-right: 0%; padding-left: 0%">
-                    <span class="user-name">Reuven Oved</span>
-                </div>
-            </div>
-            <div class="box">
-                <div>
-                    <img src="../images/useravatar.png" class="user-pic">
-                    <button>follow</button>
-                </div>
-                <div style="width: 100%; padding-right: 0%; padding-left: 0%">
-                    <span class="user-name">Hen Mizrahi</span>
-                </div>
-            </div>
-        </div>
-
-        <div class="folowees" style="text-align:center;">
-            <h4>Followees</h4>
-            <div class="box">
-                <div>
-                    <img src="../images/useravatar.png" class="user-pic">
-                    <button>follow</button>
-                </div>
-                <div style="width: 100%; padding-right: 0%; padding-left: 0%">
-                    <span class="user-name">Roy shaw</span>
-                </div>
-            </div>
-            <div class="box">
-                <div>
-                    <img src="../images/useravatar.png" class="user-pic">
-                    <button>follow</button>
-                </div>
-                <div style="width: 100%; padding-right: 0%; padding-left: 0%">
-                    <span class="user-name">Rooney Wayne</span>
-                </div>
-            </div>
-            <div class="box">
-                <div>
-                    <img src="../images/useravatar.png" class="user-pic">
-                    <button>follow</button>
-                </div>
-                <div style="width: 100%; padding-right: 0%; padding-left: 0%">
-                    <span class="user-name">loka Modric</span>
-                </div>
-            </div>
-        </div>
-    </div>
-
+	<div class="pull-right followees-list">
+		<h2>Followees</h2>
+		<div class="cell user-cell followee-cell">
+			<div class="user-avatar-img">
+				<img src="../images/useravatar.png"/>
+			</div>
+			<div>
+				<button>unfollow</button>
+			</div>
+			<div class="user-cell-name">
+				<p>Albert Einstein</p>
+			</div>
+		</div>
+		<div class="cell user-cell followee-cell">
+			<div class="user-avatar-img">
+				<img src="../images/useravatar.png"/>
+			</div>
+			<div>
+				<button>unfollow</button>
+			</div>
+			<div class="user-cell-name">
+				<p>Janis Joplin</p>
+			</div>
+		</div>
+	</div>
+	<br class="clearFix"/>
+</div>
 </body>
 </html>
