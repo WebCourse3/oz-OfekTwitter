@@ -2,8 +2,9 @@
 body{
     font-family: Arial,Algerian;
 }
-#paload{
-    width: 100%;
+nav
+{
+    align-content: right;
 }
 
 .filter{
