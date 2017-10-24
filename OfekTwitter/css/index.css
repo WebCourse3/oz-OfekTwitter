@@ -1,0 +1,130 @@
+.bigbox
+{
+    border: 2px solid lightgrey;
+    border-radius: 6px;
+    height: 25vh;
+    width: 30%;
+    margin-top: 2vh;
+    margin-left: 37%;
+}
+
+.cell_sign_in
+{
+    display: inline-block;
+    margin-top: 1vh;
+    width: 90%;
+    margin-left: 5%;
+    height: 3vh;
+}
+
+.box
+{
+    border: 1px solid lightgrey;
+    height: 14vh;
+    width: 330px;
+    margin-left: 10%;
+    margin-top: 2vh;
+}
+
+.form-textline {
+    display: inline-block;
+    margin-left:2vh;
+    height: 1.5vh;
+    width: 60%;
+    align-self: center;
+}
+
+.box input {
+    display: inline-block;
+    float: right;
+    width: 180px;
+    clear: both;
+}
+
+#header {
+    background-color: #0a64eb;;
+    color: white;
+    border-bottom: 1px solid black;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    height: 3vh;
+    display: block;
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
+#submit {
+    margin-top: 0.5vh;
+    margin-right: 10%;
+    float: right;
+    border-radius: 2px;
+    background-color: #cccccc;
+    border: 1px solid black;
+    width: 15%;
+    height: 2.5vh;
+    font-size: 0.7em;
+}
+#submit.header-li {
+    margin-right: 28%;
+}
+
+#paload{
+    width: 900px;
+    margin: auto;
+    font-size: 1vw;
+}
+
+#paload div{
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+#submit{
+     vertical-align: middle;
+ }
+
+
+section *{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#message{
+    /* padding-top: 50px;*/
+    border-color: blue;
+    vertical-align: middle;
+}
+
+
+
+.contactList li{
+    list-style-type: none;
+    margin-bottom: 1%;
+    margin-top: 1%;
+
+}
+
+.user-img{
+    height: 2vw;
+    width: 2vw;
+}
+
+.tweet {
+    margin-top: 2vh;
+}
+
+.tweet:nth-of-type(2) {
+    margin-left: 6%;
+}
+
+.tweet:nth-of-type(3) {
+    margin-left: 12%;
+}
+
+.tweet:nth-of-type(4) {
+    margin-left: 18%;
+}
+
+.tweet:nth-of-type(5) {
+    margin-left: 24%;
+}
