@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ba25b56-af47-4c2d-8072-fd68e1731e40" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/git" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OfekTwitter/view/index.html" afterPath="$PROJECT_DIR$/OfekTwitter/view/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -181,7 +179,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1508823898460</updated>
-      <workItem from="1508823899864" duration="2325000" />
+      <workItem from="1508823899864" duration="2343000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1508825839259</created>
@@ -190,11 +188,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508825839259</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ok">
+      <created>1508826248758</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1508826248758</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2325000" />
+    <option name="totallyTimeSpent" value="2343000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
