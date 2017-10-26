@@ -40,4 +40,21 @@ li img {
 	margin-right: 5px;
 	margin-top: 5px;
 }
+.frbox
+{
+	border: 0.5px solid black;
+	border-radius: 5px;
+	border-color: #0a64eb;
+}
+
+#header
+{
+	background-color: #0a64eb;
+	color: #ffffff;
+	font-size: 150%;
+	margin-bottom: 2%;
+
+}
+
+
 
