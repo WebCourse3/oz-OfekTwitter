@@ -16,7 +16,7 @@ li img {
 	color: #fff;
 }
 
-.tweets-section .row{
+#tweets-section .row{
 	margin-top: 2%;
 }
 
@@ -55,7 +55,7 @@ li img {
 	margin-bottom: 2%;
 }
 
-.tweet-text , .tweet-username
+.tweet-text , .tweet-username, .tweet-username-new
 {
 	padding-left:  0%;
 }
