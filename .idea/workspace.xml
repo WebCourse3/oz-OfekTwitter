@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ba25b56-af47-4c2d-8072-fd68e1731e40" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OfekTwitter/view/sign_in.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OfekTwitter/view/sign_up.html" afterPath="" />
+    <list default="true" id="7ba25b56-af47-4c2d-8072-fd68e1731e40" name="Default" comment="ok">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OfekTwitter/css/style.css" afterPath="$PROJECT_DIR$/OfekTwitter/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OfekTwitter/script/user.js" afterPath="$PROJECT_DIR$/OfekTwitter/script/user.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OfekTwitter/view/users.html" afterPath="$PROJECT_DIR$/OfekTwitter/view/users.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,21 +18,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="users.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OfekTwitter/view/users.html">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OfekTwitter/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="136" column="76" lean-forward="false" selection-start-line="136" selection-start-column="76" selection-end-line="136" selection-end-column="76" />
+            <state relative-caret-position="-484">
+              <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/OfekTwitter/css/style.css">
+      <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OfekTwitter/script/user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+            <state relative-caret-position="365">
+              <caret line="58" column="60" lean-forward="false" selection-start-line="58" selection-start-column="45" selection-end-line="58" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -43,8 +41,48 @@
       <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OfekTwitter/css/bootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1255">
-              <caret line="2487" column="0" lean-forward="false" selection-start-line="2487" selection-start-column="0" selection-end-line="2487" selection-end-column="0" />
+            <state relative-caret-position="55">
+              <caret line="6518" column="11" lean-forward="false" selection-start-line="6518" selection-start-column="1" selection-end-line="6518" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/OfekTwitter/view/users.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sign_in.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OfekTwitter/view/sign_in.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-335">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OfekTwitter/view/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-242">
+              <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OfekTwitter/script/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-616">
+              <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -77,6 +115,11 @@
       <find>btn-primary</find>
       <find>border border-secondary</find>
       <find>border-radius</find>
+      <find>ot-body</find>
+      <find>pull-right</find>
+      <find>followees-list</find>
+      <find>createNewUserCard</find>
+      <find>justify-content-lg-start</find>
     </findStrings>
     <replaceStrings>
       <replace>col-md-1</replace>
@@ -104,8 +147,9 @@
         <option value="$PROJECT_DIR$/OfekTwitter/view/sign_in.html" />
         <option value="$PROJECT_DIR$/OfekTwitter/view/sign_up.html" />
         <option value="$PROJECT_DIR$/OfekTwitter/view/index.html" />
-        <option value="$PROJECT_DIR$/OfekTwitter/view/users.html" />
         <option value="$PROJECT_DIR$/OfekTwitter/css/style.css" />
+        <option value="$PROJECT_DIR$/OfekTwitter/script/user.js" />
+        <option value="$PROJECT_DIR$/OfekTwitter/view/users.html" />
       </list>
     </option>
   </component>
@@ -137,34 +181,33 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Public Git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Public Git" type="462c0819:PsiDirectoryNode" />
+              <item name="oz-OfekTwitter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oz-OfekTwitter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Public Git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Public Git" type="462c0819:PsiDirectoryNode" />
+              <item name="oz-OfekTwitter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oz-OfekTwitter" type="462c0819:PsiDirectoryNode" />
               <item name="OfekTwitter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Public Git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Public Git" type="462c0819:PsiDirectoryNode" />
+              <item name="oz-OfekTwitter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oz-OfekTwitter" type="462c0819:PsiDirectoryNode" />
               <item name="OfekTwitter" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Public Git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Public Git" type="462c0819:PsiDirectoryNode" />
+              <item name="oz-OfekTwitter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oz-OfekTwitter" type="462c0819:PsiDirectoryNode" />
               <item name="OfekTwitter" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="script" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Public Git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Public Git" type="462c0819:PsiDirectoryNode" />
+              <item name="oz-OfekTwitter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oz-OfekTwitter" type="462c0819:PsiDirectoryNode" />
               <item name="OfekTwitter" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -172,12 +215,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/SaarZiv_OfekTwitter_New-bootstrap_Twitter" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -214,6 +258,7 @@
       <updated>1508823898460</updated>
       <workItem from="1508823899864" duration="19332000" />
       <workItem from="1508911407605" duration="8629000" />
+      <workItem from="1509190924672" duration="13667000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1508825839259</created>
@@ -261,20 +306,20 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27961000" />
+    <option name="totallyTimeSpent" value="41628000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16161616" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16067654" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -299,6 +344,30 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/OfekTwitter/view/users.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2992">
+          <caret line="136" column="53" lean-forward="true" selection-start-line="136" selection-start-column="53" selection-end-line="136" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OfekTwitter/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54714">
+          <caret line="2487" column="0" lean-forward="false" selection-start-line="2487" selection-start-column="0" selection-end-line="2487" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OfekTwitter/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/OfekTwitter/view/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -335,47 +404,13 @@
     <entry file="file://$PROJECT_DIR$/OfekTwitter/css/index.css" />
     <entry file="file://$PROJECT_DIR$/OfekTwitter/css/header.css" />
     <entry file="file://$PROJECT_DIR$/OfekTwitter/css/users.css" />
-    <entry file="file://$USER_HOME$/Downloads/header.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/users.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-355">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" column="22" lean-forward="false" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OfekTwitter/view/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-136">
-          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Downloads/header.css" />
+    <entry file="file://$USER_HOME$/Downloads/users.css" />
+    <entry file="file://$USER_HOME$/Downloads/index.css" />
     <entry file="file://$PROJECT_DIR$/OfekTwitter/view/sign_up.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
           <caret line="52" column="18" lean-forward="true" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OfekTwitter/view/sign_in.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -390,10 +425,50 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/OfekTwitter/view/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-242">
+          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OfekTwitter/script/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-616">
+          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OfekTwitter/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-484">
+          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OfekTwitter/view/sign_in.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-335">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OfekTwitter/script/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="58" column="60" lean-forward="false" selection-start-line="58" selection-start-column="45" selection-end-line="58" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/OfekTwitter/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1255">
-          <caret line="2487" column="0" lean-forward="false" selection-start-line="2487" selection-start-column="0" selection-end-line="2487" selection-end-column="0" />
+        <state relative-caret-position="55">
+          <caret line="6518" column="11" lean-forward="false" selection-start-line="6518" selection-start-column="1" selection-end-line="6518" selection-end-column="11" />
           <folding />
         </state>
       </provider>
@@ -401,15 +476,7 @@
     <entry file="file://$PROJECT_DIR$/OfekTwitter/view/users.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
-          <caret line="136" column="76" lean-forward="false" selection-start-line="136" selection-start-column="76" selection-end-line="136" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OfekTwitter/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+          <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
           <folding />
         </state>
       </provider>
