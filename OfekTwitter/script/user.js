@@ -9,18 +9,18 @@ var users = [{name:"Thomas Edison",follow:false, id:0},
 			{name:"Nikola Tesla",follow:false, id:8}];
 
 var pic = "../images/useravatar.png";
-//var usersListId = "users-list";
-//var followeeListId = "followees-list";
 var UnfollowText = "Unfollow";
-var followText = "Follow";
-var followClassName = "user-cell followee-cell col-lg-offset-3 col-lg-6";
+var FollowText = "Follow";
+var FollowClassName = "user-cell followee-cell col-lg-offset-3 col-lg-6";
 var UnfollowClassName = "user-cell pull-left col-lg-2";
 var UnfolllowElement = document.getElementById("unFollowersUserList");
 var FollowElement = document.getElementById("followersUserList");
+var ButtonClass = "btn btn-primary btn-sm";
+var ImgDivClass = "user-avatar-img";
 
 function createNewImgDiv(pic) {
     var tweetImgDiv =  document.createElement("div");
-    tweetImgDiv.classList.add("user-avatar-img");
+    tweetImgDiv.classList.add(ImgDivClass);
     tweetImgDiv.appendChild(createNewImg(pic));
     return tweetImgDiv;
 }
@@ -34,9 +34,9 @@ function createNewImg(imagePath){
 function createNewFollowButton(followState, id)
 {
     var newButton = document.createElement('button');
-    newButton.className = "btn btn-primary btn-sm";
+    newButton.className = ButtonClass;
     newButton.type = "submit";
-    newButton.textContent = followState ? UnfollowText : followText;
+    newButton.textContent = followState ? UnfollowText : FollowText;
 
     newButton.addEventListener("click", function(){
 	    followClick(users[id]["follow"],id,this);
@@ -46,23 +46,30 @@ function createNewFollowButton(followState, id)
     return newButton;
 }
 
+function unFollow(followState,id,followButton)
+{
+	var removedUserCard = FollowElement.removeChild(document.getElementById(id));
+	UnfolllowElement.appendChild(removedUserCard);
+	followButton.innerHTML = FollowText;
+	removedUserCard.className = UnfollowClassName;
+	users[id]["follow"] = !followState;
+}
+
+function follow(followState,id,followButton)
+{
+	var removedUserCard = UnfolllowElement.removeChild(document.getElementById(id));
+	FollowElement.appendChild(removedUserCard);
+	followButton.innerHTML = UnfollowText;
+	removedUserCard.className = FollowClassName;
+	users[id]["follow"] = !followState;
+}
+
 function followClick(followState,id,followButton) {
 
-    if (followState) {
-		var removedUserCard = FollowElement.removeChild(document.getElementById(id));
-	    UnfolllowElement.appendChild(removedUserCard);
-        followButton.innerHTML = followText;
-        removedUserCard.className = UnfollowClassName;
-	    users[id]["follow"] = !followState;
-    }
+    if (followState)
+	    unFollow(true,id,followButton);
     else
-    {
-        var removedUserCard = UnfolllowElement.removeChild(document.getElementById(id));
-	    FollowElement.appendChild(removedUserCard);
-        followButton.innerHTML = UnfollowText;
-        removedUserCard.className = followClassName;
-	    users[id]["follow"] = !followState;
-    }
+	    follow(false,id,followButton);
 }
 
 function CreateNewUserNameDiv(name) {
@@ -84,7 +91,7 @@ function createNewUserCard(name, followState, id) {
     newUser.id = id;
 
     if(followState)
-        newUser.className=followClassName;
+        newUser.className=FollowClassName;
     else
         newUser.className=UnfollowClassName;
 
@@ -112,16 +119,15 @@ function filterUsers() {
 	function keypressed() {
 		var searchString = searchElement.value;
 
-		if(searchString !== null)
-	    {
 			var cards = UnfolllowElement.getElementsByClassName('user-cell');
 
 			for (var i = 0; i < cards.length; ++i) {
 				var card = cards[i];
 				var user = users[card.id];
-				user.name.toUpperCase().indexOf(searchString.toUpperCase()) != -1 ? card.style.display = '' : card.style.display = 'none';
+				user.name.toUpperCase().indexOf(searchString.toUpperCase()) != -1 ?
+																					card.style.display = '' :
+																					card.style.display = 'none';
 			}
-		}
 	}
 }
 

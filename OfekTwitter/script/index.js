@@ -13,6 +13,7 @@ var tweets = [
 var user = "Oz Avichay Taizi";
 var pic = "../images/useravatar.png";
 
+
 function createNewMsgDiv(msg) {
 	var tweetUserDiv = document.createElement("div");
 	tweetUserDiv.className ="tweet-text col-lg-10";
@@ -36,7 +37,9 @@ function createNewImg(imagePath){
 
 function createNewUserDiv(userName,isNewTweet) {
 	var tweetUserDiv = document.createElement("div");
-	isNewTweet ? tweetUserDiv.className = "tweet-username-new col-lg-10" : tweetUserDiv.className = "tweet-username col-lg-10";
+	isNewTweet ? tweetUserDiv.className = "tweet-username-new col-lg-10" :
+		         tweetUserDiv.className = "tweet-username col-lg-10";
+
 	var msg_text = createNewUser(userName);
 	tweetUserDiv.appendChild(msg_text);
 	return tweetUserDiv;
