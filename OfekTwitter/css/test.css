@@ -1,0 +1,19 @@
+.success
+{
+	background-color: #4cae4c;
+}
+.failed
+{
+	background-color: #761c19;
+}
+ul
+{
+	list-style: none;
+}
+
+.row
+{
+	margin-top: 5%;
+}
+
+
