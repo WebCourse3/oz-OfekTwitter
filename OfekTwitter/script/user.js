@@ -119,8 +119,7 @@ function filterUsers() {
 			for (var i = 0; i < cards.length; ++i) {
 				var card = cards[i];
 				var user = users[card.id];
-				var comperNameByFilter = user.name.substring(0, searchString.length);
-				comperNameByFilter == searchString ? card.style.display = '' : card.style.display = 'none';
+				user.name.toUpperCase().indexOf(searchString.toUpperCase()) != -1 ? card.style.display = '' : card.style.display = 'none';
 			}
 		}
 	}
