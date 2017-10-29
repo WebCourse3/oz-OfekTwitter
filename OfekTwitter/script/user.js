@@ -9,13 +9,14 @@ var users = [{name:"Thomas Edison",follow:false, id:0},
 			{name:"Nikola Tesla",follow:false, id:8}];
 
 var pic = "../images/useravatar.png";
-var usersListId = "users-list";
-var followeeListId = "followees-list";
+//var usersListId = "users-list";
+//var followeeListId = "followees-list";
 var UnfollowText = "Unfollow";
 var followText = "Follow";
-
 var followClassName = "user-cell followee-cell col-lg-offset-3 col-lg-6";
 var UnfollowClassName = "user-cell pull-left col-lg-2";
+var UnfolllowElement = document.getElementById("unFollowersUserList");
+var FollowElement = document.getElementById("followersUserList");
 
 function createNewImgDiv(pic) {
     var tweetImgDiv =  document.createElement("div");
@@ -48,16 +49,16 @@ function createNewFollowButton(followState, id)
 function followClick(followState,id,followButton) {
 
     if (followState) {
-		var removedUserCard = document.getElementById("followersUserList").removeChild(document.getElementById(id));
-        document.getElementById("unFollowersUserList").appendChild(removedUserCard);
+		var removedUserCard = FollowElement.removeChild(document.getElementById(id));
+	    UnfolllowElement.appendChild(removedUserCard);
         followButton.innerHTML = followText;
         removedUserCard.className = UnfollowClassName;
 	    users[id]["follow"] = !followState;
     }
     else
     {
-        var removedUserCard = document.getElementById("unFollowersUserList").removeChild(document.getElementById(id));
-        document.getElementById("followersUserList").appendChild(removedUserCard);
+        var removedUserCard = UnfolllowElement.removeChild(document.getElementById(id));
+	    FollowElement.appendChild(removedUserCard);
         followButton.innerHTML = UnfollowText;
         removedUserCard.className = followClassName;
 	    users[id]["follow"] = !followState;
@@ -96,8 +97,8 @@ function createNewUserCard(name, followState, id) {
 }
 
 function LoadAllUsers() {
-    var UnfolllowElement = document.getElementById("unFollowersUserList");
-    var FollowElement = document.getElementById("followersUserList");
+    UnfolllowElement = document.getElementById("unFollowersUserList");
+    FollowElement = document.getElementById("followersUserList");
 
     for (var i=0; i<users.length; i++){
         var newUserCard = createNewUserCard(users[i].name,users[i].follow,users[i].id);
@@ -105,6 +106,27 @@ function LoadAllUsers() {
     }
 }
 
+function filterUsers() {
+	var searchElement = document.getElementById("filter");
+	searchElement.addEventListener("input", keypressed);
+	function keypressed() {
+		var searchString = searchElement.value;
+
+		if(searchString !== null)
+	    {
+			var cards = UnfolllowElement.getElementsByClassName('user-cell');
+
+			for (var i = 0; i < cards.length; ++i) {
+				var card = cards[i];
+				var user = users[card.id];
+				var comperNameByFilter = user.name.substring(0, searchString.length);
+				comperNameByFilter == searchString ? card.style.display = '' : card.style.display = 'none';
+			}
+		}
+	}
+}
+
 window.onload=function () {
     LoadAllUsers();
+	filterUsers();
 }
