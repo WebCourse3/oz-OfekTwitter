@@ -42,13 +42,6 @@ function createNewFollowButton(followState, id)
 
     },false);
 
- /*
-    newButton.onclick = function ()
-    {
-        followClick(users[id]["follow"],id,this);
-	    //newButton.textContent = users[id]["follow"] ? UnfollowText : followText;
-    }
-*/
     return newButton;
 }
 
