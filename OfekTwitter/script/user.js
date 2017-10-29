@@ -36,23 +36,28 @@ function createNewFollowButton(followState, id)
     newButton.className = "btn btn-primary btn-sm";
     newButton.type = "submit";
     newButton.textContent = followState ? UnfollowText : followText;
-    //newButton.addEventListener("click", followClick(users[id]["follow"],id),false);
 
-    newButton.onclick = () =>
+    newButton.addEventListener("click", function(){
+	    followClick(users[id]["follow"],id,this);
+
+    },false);
+
+ /*
+    newButton.onclick = function ()
     {
         followClick(users[id]["follow"],id,this);
-	    newButton.textContent = users[id]["follow"] ? UnfollowText : followText;
+	    //newButton.textContent = users[id]["follow"] ? UnfollowText : followText;
     }
-
-
+*/
     return newButton;
 }
+
 function followClick(followState,id,followButton) {
-    debugger;
+
     if (followState) {
 		var removedUserCard = document.getElementById("followersUserList").removeChild(document.getElementById(id));
         document.getElementById("unFollowersUserList").appendChild(removedUserCard);
-        //followButton.innerHTML = followText;
+        followButton.innerHTML = followText;
         removedUserCard.className = UnfollowClassName;
 	    users[id]["follow"] = !followState;
     }
@@ -60,7 +65,7 @@ function followClick(followState,id,followButton) {
     {
         var removedUserCard = document.getElementById("unFollowersUserList").removeChild(document.getElementById(id));
         document.getElementById("followersUserList").appendChild(removedUserCard);
-        //followButton.innerHTML = UnfollowText;
+        followButton.innerHTML = UnfollowText;
         removedUserCard.className = followClassName;
 	    users[id]["follow"] = !followState;
     }
