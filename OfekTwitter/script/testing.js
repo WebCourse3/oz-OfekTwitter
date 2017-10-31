@@ -27,8 +27,6 @@
 			this.Ul.parentNode.className = "col-lg-4 col-lg-offset-4 failed";
 		}
 
-
-
 		var text = document.createTextNode(name);
 		li.appendChild(text);
 		this.Ul.appendChild(li);

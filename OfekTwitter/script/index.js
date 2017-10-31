@@ -4,6 +4,8 @@ window.onload=function () {
 	document.getElementById("publish").addEventListener("click", publishTweeth);
 }
 
+
+
 var tweets = [
 	{username: 'Bobo',  text: 'hello followers!'},
 	{username: 'Elvis', text: 'this exercise is really easy!'},
